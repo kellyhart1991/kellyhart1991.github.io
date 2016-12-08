@@ -2,7 +2,22 @@
 	background: url("http://cdn3.craftsy.com/blog/wp-content/uploads/2014/02/decadent-cake.png");
 	background-size: cover;
 }*/
+header {
+	text-align: center;
+}
 
-h1, p {
-	color: black;
+body {
+	background: rgba(200,0,255,1);
+}
+
+h1, h2, h3, h4, h5, p, pre {
+	color: white;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+hr {
+	width: 400px;
 }
