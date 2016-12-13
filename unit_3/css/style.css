@@ -15,11 +15,14 @@ body {
 h1, h2, h3, h4, h5 {
 	color: white;
 	font-family: 'Bad Script', cursive;
+	margin: 2em;
 }
 
 p, pre {
 	color: white;
 	font-family: 'Open Sans Condensed', sans-serif;
+	margin: 2em;
+	line-height: 1.5em;
 }
 
 h1 {
@@ -28,4 +31,8 @@ h1 {
 
 hr {
 	width: 400px;
+}
+
+img {
+	margin: 2em;
 }
