@@ -1,38 +1,43 @@
 @import url('https://fonts.googleapis.com/css?family=Bad+Script|Open+Sans+Condensed:300');
-
-/*header {
-	background: url("http://cdn3.craftsy.com/blog/wp-content/uploads/2014/02/decadent-cake.png");
-	background-size: cover;
-}*/
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	background: rgba(0,0,0,.8);
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:18px;
+	line-height:1.5;
+}
+section {
+	padding:5em 0;
+}
 header {
 	text-align: center;
 }
-
-body {
-	background: rgba(0,0,0,.8);
+nav {
+	background:#fff;
+	color:#333;
 }
-
+nav a {
+	color:inherit;
+	display:inline-block;
+	text-decoration:none;
+	padding:1em;
+}
 h1, h2, h3, h4, h5 {
-	color: white;
 	font-family: 'Bad Script', cursive;
-	margin: 2em;
 }
-
-p, pre {
-	color: white;
-	font-family: 'Open Sans Condensed', sans-serif;
-	margin: 2em;
-	line-height: 1.5em;
-}
-
 h1 {
 	font-size: 50px;
 }
-
-hr {
-	width: 400px;
+p {
+	margin-top:1em;
 }
-
 img {
-	margin: 2em;
+	margin: 2em 0;
+}
+#splash {
+	background: url("http://cdn3.craftsy.com/blog/wp-content/uploads/2014/02/decadent-cake.png");
+	background-size: cover;
+	background-repeat:no-repeat;
+	padding: 10em 0;
 }
