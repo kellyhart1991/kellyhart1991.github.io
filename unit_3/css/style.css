@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Open+Sans+Condensed:300');
+
 /*header {
 	background: url("http://cdn3.craftsy.com/blog/wp-content/uploads/2014/02/decadent-cake.png");
 	background-size: cover;
@@ -7,11 +9,17 @@ header {
 }
 
 body {
-	background: rgba(200,0,255,1);
+	background: rgba(0,0,0,.8);
 }
 
-h1, h2, h3, h4, h5, p, pre {
+h1, h2, h3, h4, h5 {
 	color: white;
+	font-family: 'Bad Script', cursive;
+}
+
+p, pre {
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 h1 {
