@@ -40,4 +40,6 @@ img {
 	background-size: cover;
 	background-repeat:no-repeat;
 	padding: 10em 0;
+header #p01 {
+	font-size: 25px;
 }
