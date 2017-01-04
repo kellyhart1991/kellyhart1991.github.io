@@ -2,19 +2,19 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background: rgba(0,0,0,.8);
-	color: white;
+	color: black;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size:18px;
 	line-height:1.5;
 }
 section {
-	padding:5em 0;
+	padding:2em 0;
 }
 header {
 	text-align: center;
 }
 nav {
-	background:#fff;
+	background:#E8C66A;
 	color:#333;
 }
 nav a {
@@ -40,7 +40,33 @@ img {
 	background-size: cover;
 	background-repeat:no-repeat;
 	padding: 10em 0;
+	color: white;
 }
 #p01 {
 	font-size: 25px;
+}
+#wrapper {
+	background-color: rgb(0,0,0);
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding:20px;
+}
+aside {
+	background-color: #FFC675;
+	padding: 3em 0 3em 0;
+}
+article {
+	background-color: #E89C6C;
+	padding: 2em 0 2em 0;
+}
+div {
+	background-color: #FFE2B8;
+}
+section {
+	background-color: #FFE2B8;
 }
