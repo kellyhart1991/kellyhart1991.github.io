@@ -51,6 +51,12 @@ img {
 	margin: 0 auto;
 	text-align: center;
 }
+.staff {
+	float: left;
+	width: 250px;
+	margin: 40px;
+	background-color: orange;
+}
 header {
 	background-color: #FFED74;
 	border: 1px black solid;
@@ -58,21 +64,33 @@ header {
 }
 aside {
 	background-color: #FFC675;
-	padding: 3em 0 3em 0;
-/*	float: left;
-	overflow: hidden;
-	display: inline;*/
+	padding: 3em 3em 3em 3em;
+	float: left;
+	clear: both;
 }
 article {
 	background-color: #E89C6C;
-/*	float: right;*/
-/*	display: inline;*/
-	padding: 2em 8em 5em 8em;
-/*	overflow: hidden;*/
+	float: right;
+	display: inline;
+	margin: 2em 2em 2em 2em;
+	padding: 1em 2em 4em 2em;
+	clear: both;
 }
 div {
 	background-color: #FFE2B8;
 }
 section {
 	background-color: #FFE2B8;
+} 
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+#vist {
+	margin: auto;
+	clear: both;
 }
