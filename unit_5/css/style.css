@@ -56,25 +56,33 @@ img {
 	width: 250px;
 	margin: 40px;
 	background-color: orange;
+	padding: 0 0 0 0;
 }
 header {
 	background-color: #FFED74;
 	border: 1px black solid;
 	padding:20px;
 }
-aside {
-	background-color: #FFC675;
-	padding: 3em 3em 3em 3em;
+.picture {
+	background-color: violet;
+/*	padding: 3em 3em 3em 3em;*/
 	float: left;
-	clear: both;
+/*	clear: both;*/
+	border: 1px black solid;
+	padding: 20px;
+	width: 30%;
+
 }
-article {
-	background-color: #E89C6C;
+.description {
+	background-color: pink;
 	float: right;
-	display: inline;
-	margin: 2em 2em 2em 2em;
-	padding: 1em 2em 4em 2em;
-	clear: both;
+/*	display: inline;*/
+	/*margin: 2em 2em 2em 2em;*/
+/*	padding: 1em 2em 4em 2em;*/
+/*	clear: both;*/
+	padding: 20px;
+	border: 1px black solid;
+	width: 62%;
 }
 div {
 	background-color: #FFE2B8;
@@ -93,4 +101,7 @@ section {
 #vist {
 	margin: auto;
 	clear: both;
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding:20 px;
 }
