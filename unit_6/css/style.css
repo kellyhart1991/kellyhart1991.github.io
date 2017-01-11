@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Open+Sans+Condensed:300');
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	background: rgba(0,0,0,.8);
+	color: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:18px;
+	line-height:1.5;
+}
+section {
+	padding:2em 0;
+}
+header {
+	text-align: center;
+	background: url(http://capitalcitybakery.com/wp-content/uploads/2015/09/treatz.jpg);
+	background-size: cover;
+	background-repeat: none;
+	color: white;
+	border: 1px black solid;
+	padding: 20px 20px 150px 20px;
+}
+.treats {
+	background-color: rgba(250,90,90,.6);
+	padding: 20px 0 20px 0;
+	margin: 100px 200px 0 200px;
+	text-align: center
+}
+nav {
+	background:#E8C66A;
+	color:#333;
+	background-color: rgba(250,100,100,.8);
+	font-weight: 900;
+}
+nav a {
+	color: black;
+	display:inline-block;
+	text-decoration:none;
+	padding:2em;
+	float: right;
+}
+nav a:hover {
+	background-color: rgb(200,200,200);
+}
+h1, h2, h3, h4, h5 {
+	font-family: 'Bad Script', cursive;
+}
+h1 {
+	font-size: 50px;
+	clear: both;
+	padding: 20px 0 0 0;
+}
+p {
+	margin-top:1em;
+}
+div {
+	background-color: #FFE2B8;
+}
+section {
+	background-color: #FFE2B8;
+} 
+.logo {
+	width: 75px;
+	float: left;
+	margin: 10px 0 10px 10px;
+}
+#splash {
+/*	background: url("http://cdn3.craftsy.com/blog/wp-content/uploads/2014/02/decadent-cake.png");*/
+	background-size: cover;
+	background-repeat:no-repeat;
+	padding: 10em 0;
+	color: white;
+	background-color: rgba(250,100,100,.8);
+}
+#p01 {
+	font-size: 25px;
+}
+#wrapper {
+	background-color: rgb(0,0,0);
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+.staff {
+	float: left;
+	width: 31%;
+	margin: 1%;
+	background-color: orange;
+	padding: 3%;
+	min-height: 570px;
+	display: inline-block;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+#vist {
+	margin: 5%;
+	clear: both;
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+.picture {
+	background-color: violet;
+	float: left;
+	border: 1px black solid;
+	padding: 0%;
+	margin: 2% 1% 0 8%;
+	min-height: 500px;
+}
+.description {
+	background-color: pink;
+	float: left;
+	padding: 0%;
+	border: 1px black solid;
+	width: 25%;
+	margin: 2% 7% 0 2%;
+	min-height: 500px;
+	line-height: 2.5; 
+}
+.images {
+	float: left;
+	margin: 1%;
+	display: inline-block;
+}
+.gal {
+	width: 21em;
+	padding: 1%;
+}
+.feature {
+	float: left;
+	margin: 3% .6% 0 .6%;
+	padding: 3% 0 3% 0;
+	display: inline-block;
+	background-color: rgb(200,100,100);
+	width: 32%;
+	min-height: 645px;
+}
+.cook {
+	width: 90%;
+}
