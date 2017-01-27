@@ -24,7 +24,8 @@ header {
 	padding: 2em 0 2em 0;
 /*	margin: 6.25em 12.5em 0 12.5em;*/
 	text-align: center
-	margin: 6.25em 0 0 0;
+	width: 75%;
+	margin-top: 6.25em;
 }
 nav {
 	background:#E8C66A;
@@ -131,7 +132,7 @@ section {
 	display: inline-block;
 }
 .gal {
-	width: 21em;
+	width: 32%;
 	padding: 1%;
 }
 .feature {
@@ -146,24 +147,15 @@ section {
 .cook {
 	width: 90%;
 }
-@media only screen and (min-width: 895) {
-/*	.treats {
-		display: inline-block;
-		width: 1em; 
+@media only screen and (max-width: 875) {
+	.treats {
+		margin: 2.25em 3.5em 2.25em 3.5em;
+		padding: 4em 0 1em 0;
+		display: block;
 	}
-}*/
-@media only screen and (max-width:895) {
 	h1 {
-		font-size: .02em;
-		display: inline-block;
-		width: 1em;
-	/*	margin: 6.25em 0 0 0;*/
+		font-size: 2em;
 	}
-	}
-/*	.treats {
-		display: inline-block;
-		width: 1em;
-	}*/
 }
 @media only screen and (max-width: 705px) {
 	nav a {
@@ -190,6 +182,12 @@ section {
 @media only screen and (max-width: 800) {
 
 }*/
+@media only screen and (max-width: 780) {
+	.gal {
+		width: 48%;
+		padding: 1%;
+	}
+}
 @media only screen and (max-width: 1355) {
 	.picture {
 		width: 57%;
