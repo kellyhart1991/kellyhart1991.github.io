@@ -21,7 +21,6 @@ header {
 	background-color: rgba(205,189,201,.7);
 	background-size: cover;
 	padding: 2em 0 1em 0;
-/*	margin: 6.25em 12.5em 0 12.5em;*/
 	text-align: center
 	width: 75%;
 	line-height: 1.2;
@@ -176,12 +175,12 @@ address {
 	width: 90%;
 }
 @media only screen and (min-width: 1400px) {
-	.feature {
+	.featured {
 		min-height: 30.31em;
 	}
 }
 @media only screen and (min-width: 1350px) {
-	.feature {
+	.staff {
 		min-height: 54em;
 	}
 }
