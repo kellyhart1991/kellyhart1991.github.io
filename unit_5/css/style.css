@@ -11,30 +11,31 @@ section {
 }
 header {
 	text-align: center;
-	background: url(http://cdn.skim.gs/images/cupcake-shop_mqnsog/5-best-cupcake-shops-in-the-us);
-	background-size: cover;
-	background-repeat: none;
 	color: white;
-	padding: 1.25em 1.25em 9.38em 1.25em;
 }
 .treats {
-	background-color: rgba(205,189,201,.7);
+	background: url(http://cdn.skim.gs/images/cupcake-shop_mqnsog/5-best-cupcake-shops-in-the-us);
 	background-size: cover;
-	padding: 2em 0 1em 0;
 	text-align: center
-	width: 75%;
 	line-height: 1.2;
+	color: white;
+}
+.background {
+	background-color: rgba(205,129,201,.5);
+	padding: 8em 0 8em 0;
+	margin: -2em 0 -2em 0;
+	background-size: cover;
 }
 nav {
 	color:#333;
 	font-weight: 900;
+	float: right;
 }
 nav a {
 	color: white;
 	display:inline-block;
 	text-decoration:none;
-	padding:2em;
-	float: right;
+	padding: 2em;
 }
 nav a:hover {
 	background-color: rgba(239,202,218,.7);
@@ -53,9 +54,6 @@ h2 {
 p {
 	margin-top: 1em;
 	font-weight: 700;
-}
-div {
-/*	background-color: #FFE2B8;*/
 }
 section {
 	background-color: rgba(239,202,218,.7);
@@ -77,20 +75,16 @@ address {
 	font-weight: 650;
 }
 #history {
-	float: left;
-	display: block;
-	padding: 1em 0 4em 0;
-	width: 50%;
+	display: inline-block;
+	width: 80%;
 	line-height: 3em; 
-	margin: 9em 0 0 5em;
+	margin: 1em 1em 1em 1em;
 	text-align: center;
 }
-.floatleft {
-	float: left;
-	margin: 0 5% 0 7%;
-	display: block;
-	width: 22%;
-	text-align: center;
+.group {
+	display: inline-block;
+	width: 30%;
+	margin: .5em .5em .5em .5em;
 }
 #splash p {
 	margin-top: 0;
@@ -209,11 +203,6 @@ address {
 	}
 }
 @media only screen and (max-width: 875px) {
-	.treats {
-		margin: 2.25em 3.5em 2.25em 3.5em;
-		padding: 4em 0 1em 0;
-		display: block;
-	}
 	.feature {
 		min-height: 15.31em;
 	}
@@ -265,6 +254,10 @@ address {
 		float: none;
 		width: 66%;
 	}
+	.group{
+		float: none;
+		width: 60%;
+	}
 }
 @media only screen and (max-width: 705px) {
 	nav a {
@@ -273,10 +266,7 @@ address {
 		padding: 0 1em 0 1em;
 		height: 50px;
 		margin: 0 1em 0 1em;
-	}
-	.logo {
-		float: none;
-		margin: 1em;
+		text-align: center;
 	}
 }
 @media only screen and (max-width: 600px){

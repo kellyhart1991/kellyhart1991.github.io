@@ -11,30 +11,27 @@ section {
 }
 header {
 	text-align: center;
-	background: url(http://cdn.skim.gs/images/cupcake-shop_mqnsog/5-best-cupcake-shops-in-the-us);
-	background-size: cover;
-	background-repeat: none;
 	color: white;
-	padding: 1.25em 1.25em 9.38em 1.25em;
 }
 .treats {
-	background-color: rgba(205,189,201,.7);
+	background: url(http://cdn.skim.gs/images/cupcake-shop_mqnsog/5-best-cupcake-shops-in-the-us);
 	background-size: cover;
-	padding: 2em 0 1em 0;
 	text-align: center
-	width: 75%;
 	line-height: 1.2;
+}
+.background {
+	background-color: rgba(205,189,201,.7);
 }
 nav {
 	color:#333;
 	font-weight: 900;
+	float: right;
 }
 nav a {
 	color: white;
 	display:inline-block;
 	text-decoration:none;
-	padding:2em;
-	float: right;
+	padding: 2em;
 }
 nav a:hover {
 	background-color: rgba(239,202,218,.7);
@@ -53,9 +50,6 @@ h2 {
 p {
 	margin-top: 1em;
 	font-weight: 700;
-}
-div {
-/*	background-color: #FFE2B8;*/
 }
 section {
 	background-color: rgba(239,202,218,.7);
@@ -212,7 +206,7 @@ address {
 	.treats {
 		margin: 2.25em 3.5em 2.25em 3.5em;
 		padding: 4em 0 1em 0;
-		display: block;
+		display: inline-block;
 	}
 	.feature {
 		min-height: 15.31em;
