@@ -96,6 +96,7 @@ address {
 	width: 90%;
 	margin: 40px auto;
 	text-align: center;
+	max-width: 1500px;
 }
 .staff {
 	float: left;
